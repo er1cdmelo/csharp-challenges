@@ -14,12 +14,8 @@ public class Program
 		if (answer.SequenceEqual(numsExpected))
 			Console.WriteLine("CORRECT");
 		else
-		{
 			Console.WriteLine("WRONG");
-			
-			foreach(var elem in answer)
-				Console.WriteLine(elem);
-		}
+		
 	}
 	
 	public static int[] GetSumNumbers(int[] nums, int sumExpected)
